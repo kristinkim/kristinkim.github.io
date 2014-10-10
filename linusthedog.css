@@ -2,7 +2,7 @@
 body {
               font-family: 'Lobster Two', sans-serif;
                font-weight: 300;
-              background-image: url(Graffiti.jpg);
+              background-image: url(artificialgrass.jpg);
                background-size: cover;
                background-position: center center;
                background-attachment: fixed;
@@ -24,7 +24,7 @@ a {
 /* Make the name 36px font and italicized */
 
 h1 {
-	font-family: 'Montserrat';
+	font-family: 'Lobster Two';
 	font-size: 36px;
 	font-style: italic;
 	border: 1px solid red;
