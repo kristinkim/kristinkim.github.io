@@ -10,6 +10,7 @@ body {
  
 #wrapper {
   width: 960px;
+  opacity: .85;
   margin: 50px auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -25,19 +26,29 @@ a {
 
 h1 {
 	font-family: 'Lobster Two';
-	font-size: 36px;
+	font-size: 100px;
 	font-style: italic;
-	border: 1px solid red;
 	width: 400px;
 	margin: 10px;
 	padding: 10px;
 }
+
+h2 {
+	font-size: 20px;	
+	color: black;
+	font-family: 'Lobster Two';
+	width: 600px;
+	margin: 5px;
+	padding: 2px;
+}
+
 
 /* Make the section headers (e.g. Summary, Experience) 26px font */
 
 h4 {
 	font-size: 26px;	
 	color: blue;
+	font-family: 'Lobster Two';
 }
 
 div#experience h4 {
@@ -54,7 +65,7 @@ h5 {
 /* Put a border around the photo, set it to the right */
 
 img#linus {
-	border: 1px solid grey;
+	border: 4px solid grey;
 	border-radius: 9999999px;
 	box-shadow: 10px 10px 1px grey;
 	float: right;
@@ -65,7 +76,7 @@ img#linus {
 
 body {
 	font-family: 'Droid Sans', arial;
-	background-image: url(background.jpg);
+	background-image: url(artificialgrass.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -79,7 +90,7 @@ p, li {
 
 /* Make the links purple when I put my mouse over it */
 a:hover {
-	color: purple;
+	color: red;
 }
 
 /* Make the content of the page "sit on top of" the background */
