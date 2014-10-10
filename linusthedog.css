@@ -1,6 +1,24 @@
 /* Turn the links red */
+body {
+              font-family: 'Lobster Two', sans-serif;
+               font-weight: 300;
+              background-image: url(Graffiti.jpg);
+               background-size: cover;
+               background-position: center center;
+               background-attachment: fixed;
+}
+ 
+#wrapper {
+  width: 960px;
+  margin: 50px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
 a { 
-  color: red; 
+  color: blue; 
 }
 
 /* Make the name 36px font and italicized */
@@ -19,7 +37,7 @@ h1 {
 
 h4 {
 	font-size: 26px;	
-	color: green;
+	color: blue;
 }
 
 div#experience h4 {
@@ -35,7 +53,7 @@ h5 {
 
 /* Put a border around the photo, set it to the right */
 
-img#walter {
+img#linus {
 	border: 1px solid grey;
 	border-radius: 9999999px;
 	box-shadow: 10px 10px 1px grey;
