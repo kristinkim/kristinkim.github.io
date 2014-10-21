@@ -1,14 +1,86 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif; color:#ffffff;
+  font-family: 'Julius Sans One', arial, sans-serif; color:#ffffff;
   font-weight: 300;
   background: url(spacebackground.png) repeat;
 }
 #wrapper {
+  opacity: .9;
   width: 960px;
-  margin: 20px auto;
+  margin: 50px auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
 a:hover {
   color: white;
+}
+
+
+div#container-fluid {
+               width: 960px;
+               margin: 50px auto;
+               padding: 40px;
+}
+
+h1 {
+               font-family: 'Codystar';
+               font-weight: bolder;
+               font-size: 600%;
+               color: white;
+               text-align: center;
+               margin: 50px auto;
+}
+
+h2{
+               font-family: 'Codystar';
+               font-size: 300%;
+               color: white;
+               text-align: center;
+}
+
+li {
+	text-align: left;
+}
+h5#title {
+	font-weight: bolder;
+	font-size: 150%;
+	text-align: left;
+}
+
+
+img#spacecamp {
+
+
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	content: center;
+
+}
+
+
+h2#navbar{
+               font-family: 'Codystar';
+               font-size: 200%;
+               color: white;
+               text-align: center;
+}
+
+
+ div#navbar {
+ font-family: 'Julius Sans One';
+  text-align: center;
+  content: center;
+  line-height: 26px;
+
+
+}
+
+div#wrapper2 {
+
+	opacity: .9px;
+	width: 960px;
+	margin: 20px auto;
+	padding: 20px;
 }

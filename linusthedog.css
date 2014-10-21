@@ -10,12 +10,21 @@ body {
  
 #wrapper {
   width: 960px;
-  opacity: .85;
-  margin: 50px auto;
+  opacity: .95;
+
   padding-left: 20px;
   padding-right: 20px;
 }
 
+
+
+
+div#container {
+               width: 960px;
+               margin: 50px auto;
+               padding: 40px;
+}
+ 
 
 
 a { 
@@ -24,30 +33,62 @@ a {
 
 /* Make the name 36px font and italicized */
 
+li {
+	font-family: 'Quicksand';
+	font-size: 120%;
+}
+
+table {
+	font-family: 'Quicksand';
+	font-size: 120%;
+	padding: 40px auto;
+	margin: 20px auto;
+
+
+
+}
+
+
 h1 {
 	font-family: 'Lobster Two';
-	font-size: 100px;
+	font-size: 120px;
 	font-style: italic;
 	width: 400px;
-	margin: 10px;
+	margin: 10px auto;
 	padding: 10px;
+	text-align: center;
+	content: center;
+}
+
+
+div#breed {
+	           text-align: center;
+               content: center;
+               font-family: 'Quicksand';
+               font-weight: bold;
+               font-size: 65%;
+               color: black;
+               margin: 20px auto;
+
 }
 
 h2 {
-	font-size: 20px;	
+	font-size: 25px;	
 	color: black;
 	font-family: 'Lobster Two';
 	width: 600px;
-	margin: 5px;
-	padding: 2px;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	content: center;
 }
 
 
 /* Make the section headers (e.g. Summary, Experience) 26px font */
 
 h4 {
-	font-size: 26px;	
-	color: blue;
+	font-size: 36px;	
+	color: black;
 	font-family: 'Lobster Two';
 }
 
@@ -69,6 +110,8 @@ img#linus {
 	border-radius: 9999999px;
 	box-shadow: 10px 10px 1px grey;
 	float: right;
+	margin: 20px;
+
 
 }
 
@@ -93,7 +136,46 @@ a:hover {
 	color: red;
 }
 
+
+
+
+#footer {
+	color: white;
+	margin: 20px auto;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* NAVBAR STYLING */
+
+div#navbar2 {
+               text-align: center;
+               content: center;
+               font-family: 'Lobster Two';
+               font-size: 200%;
+               color: black;
+               	margin: 20px auto;
+
+}
+
+
+
+div#navbar {
+	font-family: 'Julius Sans One';
+  text-align: center;
+  content: center;
+  line-height: 26px;
+
+
+}
+
+
+
+
+
 /* Make the content of the page "sit on top of" the background */
+
 
 div#wrapper {
 	background-color: white;
@@ -103,12 +185,5 @@ div#wrapper {
 }
 
 /* Make it so you can see the footer and center it */
-
-#footer {
-	color: white;
-	margin: 20px auto;
-	text-align: center;
-	padding: 20px;
-}
 
 
